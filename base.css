@@ -1,0 +1,31 @@
+.d_flex{
+    display: flex;
+}
+
+.justify_content_between{
+    justify-content: space-between;
+}
+
+.justify_content_center{
+    justify-content: center;
+}
+
+.aling_item_center{
+    display: flex;
+    align-items: center;
+}
+
+
+.aling_item_right{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    height: 100vh;
+}

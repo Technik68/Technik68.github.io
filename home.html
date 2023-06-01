@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleHarder.css" />
+    <link rel="stylesheet" href="base.css" />
+    <script src="workHarder.js"></script>
+
+    <title>Радуга</title>
+  </head>
+
+  <body>
+    <div id="container" class="flex_wrap">
+      <div class="card col_4">
+        <table class="table_class justify_content_between">
+          <tr>
+            <td class="col purpleC" id="purpleC"></td>
+          </tr>
+          <tr>
+            <td class="col blueC" id="blueC"></td>
+          </tr>
+          <tr>
+            <td class="col aquaC" id="aquaC"></td>
+          </tr>
+          <tr>
+            <td class="col greenC" id="greenC"></td>
+          </tr>
+          <tr>
+            <td class="col yellowC" id="yellowC"></td>
+          </tr>
+          <tr>
+            <td class="col orangeC" id="orangeC"></td>
+          </tr>
+          <tr>
+            <td class="col redC" id="redC"></td>
+          </tr>
+        </table>
+
+        <h1 class="card-head black_color text_600" margin="15px 0px">Радуга</h1>
+        <p class="card-desc text_400" margin="15px 0px">
+          Пук пук, я тут сделал как бы лабу, пук пук, поставьте пожалуйста 45,
+          пук пук, я старался.
+        </p>
+
+        <div class="forButton justify_content_between">
+          <button type="button" id="Down">Я опускаю вниз</button>
+          <button type="button" id="Automatical">Я автоматическая)</button>
+          <script src="work.js"></script>
+        </div>
+        <div class="picture_class justify_content_between">
+          <img src="rainbowCat.png" />
+        </div>
+      </div>
+      <div class="card col_4">
+        <div class="inputDiv">
+          <input id="name" type="text" placeholder="Введите ваше имя" />
+          <input id="age" type="number" placeholder="Введите ваш возраст" />
+        </div>
+        <div class="forButton justify_content_between">
+          <button type="button" onclick="nameReturn()">Ввод имени</button>
+          <button type="button" onclick="age()">Ввод возраста</button>
+        </div>
+        <div class="input_label checkbox-group">
+          <input id="maskulinum" type="checkbox" class="checkbox-only" />
+          <label for="maskulinum">Мужской</label>
+          <input id="feminine" type="checkbox" class="checkbox-only" />
+          <label for="feminine">Женский</label>
+        </div>
+        <div class="input_label">
+          <input type="checkbox" id="math" />
+          <label for="math" class="textMargin10"
+            >Наличие навыков математики</label
+          >
+          <input type="checkbox" id="prog" />
+          <label for="prog">Наличие навыков программирования</label>
+          <input type="checkbox" id="education" />
+          <label for="education" class="textMargin10"
+            >Наличие высшего образования</label
+          >
+          <input type="checkbox" id="english" />
+          <label for="english" class="textMargin5"
+            >Наличие знания английского языка</label
+          >
+          <input type="checkbox" id="design" />
+          <label for="design" class="textMargin15"
+            >Наличие навыков дизайна</label
+          >
+        </div>
+      </div>
+      <div class="card col_4">
+        <div class="justify_content_center">
+          <button
+            class="for-button-harder justify_content_center aling_item_center"
+            onclick="disableCheckbox()"
+          >
+            Запретить редактирование
+          </button>
+          <button
+            class="for-button-harder justify_content_center aling_item_center"
+            onclick="enableCheckbox()"
+          >
+            Разрешить редактирование
+          </button>
+          <button
+            class="for-button-harder justify_content_center aling_item_center"
+            onclick="check()"
+          >
+            Сдать анкету
+          </button>
+        </div>
+        <div class="input_label checkbox-colonli">
+          <input id="notification" type="checkbox" />
+          <label class="textMargin10" for="notification"
+            >Я хочу получать уведомления</label
+          >
+          <input
+            id="vosmut"
+            class="vosmut_class"
+            type="checkbox"
+            onchange="final_checkbox()"
+          />
+          <label
+            class="textMargin30 vosmut_class"
+            id="label_for_vosmut"
+            for="vosmut"
+            >Меня возьмут</label
+          >
+        </div>
+        <div class="output">
+          <p id="admin" class="textMargin30"></p>
+          <p id="ageOutput" class="textMargin35"></p>
+        </div>
+
+      </div>
+      <div class="card col_4">
+        <div class="input_label">
+          <input id="number1" type="number" placeholder="Введите число 1" />
+          <input id="number2" type="number" placeholder="Введите число 2" />
+        </div>
+        <div class="justify_content_between">
+          <button class="for-button-harder justify_content_center aling_item_center" onclick="calculate()">Вычислить</button>
+        </div>
+        <div class="output">
+          <p id="maximum" class="textMargin30"></p>
+          <p id="minimum" class="textMargin30"></p>
+          <p id="equality" class="textMargin30"></p>
+        </div>
+      </div>
+    </div>
+
+    <noscript>NOWAY NOOOOOOOOOOOOOOOOOOOOOOOO</noscript>
+  </body>
+</html>

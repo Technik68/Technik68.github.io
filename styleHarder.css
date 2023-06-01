@@ -1,0 +1,65 @@
+.inputDiv {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #80705d;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #80705d;
+}
+
+.input_label {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #80705d;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkbox-colonli {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkbox-only {
+  margin: 5px;
+}
+
+.for-button-harder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 30px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.vosmut_class{
+    visibility: hidden;
+}
+
+.output{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #80705d;
+    
+}
